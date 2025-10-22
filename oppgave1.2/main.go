@@ -7,7 +7,7 @@ import (
 )
 
 func main() {	
-	for index, arg := range os.Args[1:] {
+	for index, arg := range os.Args[0:] {
 		fmt.Println(index, arg)
 	}
 	
